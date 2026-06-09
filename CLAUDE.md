@@ -12,11 +12,11 @@ The notebooks have a dependency chain and must be run in order:
 
 1. **`Eos_energymomentum.nb`** — Derives symbolic expressions for the f(R) field equations, background energy-momentum tensor, and equation of state using the xAct tensor calculus package. Run first to establish the symbolic scaffolding.
 
-2. **`Background solutions/Determining ICs.nb`** — Determines initial conditions (at z=0) for the background ODE system.
+2. **`Background solutions/Determining ICs.nb`** — Determines initial conditions at z₀=6 by propagating from the q value at z=0.
 
-3. **`Background solutions/Solving Background all models.nb`** — Numerically solves the autonomous background system for Models 0–3 and ΛCDM. Saves results to `.mx` binary files (`BackgroundSols_model0.mx`, etc.) which are gitignored.
+3. **`Background solutions/Phase Space Analysis all models.nb`** — Explores the phase space trajectories using those initial conditions to check physical viability. Does not depend on any `.mx` files.
 
-4. **`Background solutions/Phase Space Analysis all models.nb`** — Phase space trajectories for the background variables; loads from the `.mx` files saved in step 3.
+4. **`Background solutions/Solving Background all models.nb`** — Numerically solves the autonomous background system for Models 0–3 and ΛCDM. Saves results to `.mx` binary files (`BackgroundSols_model0.mx`, etc.) which are gitignored.
 
 5. **`Cosmological perturbations/Perturbation equations QS.nb`** — Solves the quasi-static matter perturbation ODE, loads background `.mx` files, computes fσ8 for all models, and plots against observational data in `fsigma8.txt`.
 
