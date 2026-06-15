@@ -53,3 +53,5 @@ Cosmological perturbations/ QS perturbation solver, fσ8 computation and plottin
 Eos_energymomentum.nb       Symbolic derivation of field equations (xAct)
 old code/                   Archived notebooks; gitignored
 ```
+## Notes
+- Do not rewrite, write or implement new code unless first discussed with me
