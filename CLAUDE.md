@@ -27,7 +27,7 @@ The background autonomous system is expressed in redshift z with three dimension
 - `x[z]` — cosmographic phase-space variable (related to jerk/deceleration)
 - `Ω[z]` — matter density parameter Ω_m(z)  
 - `q[z]` — deceleration parameter
-- `hz[z]` — dimensionless Hubble parameter H(z)/H₀ (named `hz` not `h` to avoid conflict with `h` in H₀ = 100h)
+- `Eh[z]` — dimensionless Hubble parameter H(z)/H₀ (named `Eh` not `h` to avoid conflict with `h` in H₀ = 100h)
 
 Models are labelled 0–3 corresponding to different parametrisations of the jerk j(z). Solutions are stored as `sol0`, `sol1`, `sol2`, `sol3`, `solLCDM` and replacement rules `LCDMreplacements`.
 
